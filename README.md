@@ -145,9 +145,9 @@ Masukkan:
 
 ---
 
-## 4. Skenario Pengujian untuk Laporan Sidang
+## 4. Skenario Pengujian 
 
-Berikut skenario pengujian yang disarankan dimasukkan ke bab pengujian (BAB IV):
+Berikut skenario pengujian yang disarankan:
 
 1. **Uji fungsional dasar**: upload file kecil (txt), verifikasi muncul di `LIST`, download kembali, bandingkan checksum awal vs akhir → harus identik.
 2. **Uji file besar**: upload file berukuran puluhan/ratusan MB, amati progress bar & waktu transfer, hitung throughput (MB/s).
@@ -175,7 +175,7 @@ Berikut skenario pengujian yang disarankan dimasukkan ke bab pengujian (BAB IV):
 
 ---
 
-## 6. Pengembangan Lanjutan (opsional, untuk nilai tambah di sidang)
+## 6. Pengembangan Lanjutan (opsional)
 
 Jika ingin menaikkan bobot proyek, beberapa fitur lanjutan yang bisa
 ditambahkan dan dijelaskan sebagai *future work*:
@@ -196,6 +196,4 @@ ditambahkan dan dijelaskan sebagai *future work*:
 | Tidak bisa connect dari mesin lain | Firewall Kali (`ufw`) memblokir | `sudo ufw allow 5001/tcp` |
 | Login selalu gagal | Belum menjalankan `setup_user.py` | Jalankan `python3 setup_user.py` di sisi server terlebih dahulu |
 
----
-
-Selamat mengerjakan tugas akhir — semoga sidangnya lancar! 🎓
+-
