@@ -1,0 +1,10 @@
+# Aplikasi ini SENGAJA hanya menggunakan Python Standard Library
+# (socket, threading, json, hashlib, struct, logging, getpass, os)
+# sehingga tidak butuh instalasi paket tambahan (zero-dependency).
+#
+# Kali Linux sudah menyertakan Python 3 secara default, jadi cukup:
+#   python3 server.py
+#   python3 client.py
+#
+# File ini disediakan hanya sebagai bukti/lampiran bahwa proyek
+# tidak memerlukan dependency eksternal untuk laporan tugas akhir.
